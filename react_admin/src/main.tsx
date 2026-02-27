@@ -12,7 +12,7 @@ import { AdminLoginPage } from './pages/AdminLoginPage';
 const Shell = () => (
   <div style={{ display: 'grid', gridTemplateColumns: '240px 1fr', minHeight: '100vh' }}>
     <aside style={{ padding: 16, background: '#073042', color: 'white' }}>
-      <h2>OLX Admin</h2>
+      <h2>indiawish Admin</h2>
       <nav style={{ display: 'grid', gap: 8 }}>
         <Link to='/' style={{ color: 'white' }}>Dashboard</Link>
         <Link to='/users' style={{ color: 'white' }}>Users</Link>

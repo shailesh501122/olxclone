@@ -102,7 +102,7 @@ class _HomeScreenState extends State<HomeScreen> {
   Widget _buildTopBar() => Padding(
     padding: const EdgeInsets.all(12),
     child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
-      const Row(children: [Text('OLX', style: TextStyle(fontSize: 28, fontWeight: FontWeight.bold)), Spacer(), Icon(Icons.favorite_border), SizedBox(width: 10), Icon(Icons.notifications_none)]),
+      const Row(children: [Text('indiawish', style: TextStyle(fontSize: 28, fontWeight: FontWeight.bold)), Spacer(), Icon(Icons.favorite_border), SizedBox(width: 10), Icon(Icons.notifications_none)]),
       const SizedBox(height: 8),
       const Row(children: [Icon(Icons.location_on_outlined), SizedBox(width: 4), Text('India'), Icon(Icons.keyboard_arrow_down)]),
       const SizedBox(height: 10),

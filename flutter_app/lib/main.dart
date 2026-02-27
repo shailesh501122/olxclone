@@ -1,16 +1,16 @@
 import 'package:flutter/material.dart';
 import 'screens/home/home_screen.dart';
 
-void main() => runApp(const OlxCloneApp());
+void main() => runApp(const IndiawishApp());
 
-class OlxCloneApp extends StatelessWidget {
-  const OlxCloneApp({super.key});
+class IndiawishApp extends StatelessWidget {
+  const IndiawishApp({super.key});
 
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'OLX Clone',
+      title: 'indiawish',
       theme: ThemeData(useMaterial3: true, scaffoldBackgroundColor: Colors.white),
       home: const HomeScreen(),
     );

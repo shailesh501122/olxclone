@@ -34,7 +34,7 @@ npm run dev
 ## Docker (Backend)
 ```bash
 cd backend
-docker build -t olxclone-api -f Dockerfile .
+docker build -t indiawish-api -f Dockerfile .
 ```
 
 
