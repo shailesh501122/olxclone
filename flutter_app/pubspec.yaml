@@ -1,0 +1,17 @@
+name: olx_clone_app
+description: Pixel-perfect OLX clone scaffold
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  signalr_netcore: ^1.4.0
+  dio: ^5.7.0
+
+flutter:
+  uses-material-design: true
